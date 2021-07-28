@@ -17,7 +17,7 @@ let g:colors_name="onehalfdark"
 let colors_name="onehalfdark"
 
 
-let s:black       = { "gui": "#282c34", "cterm": "236" }
+let s:black       = { "gui": "#282c34", "cterm": "234" }
 let s:red         = { "gui": "#e06c75", "cterm": "168" }
 let s:green       = { "gui": "#98c379", "cterm": "114" }
 let s:yellow      = { "gui": "#e5c07b", "cterm": "180" }
@@ -29,7 +29,7 @@ let s:white       = { "gui": "#dcdfe4", "cterm": "188" }
 let s:fg          = s:white
 let s:bg          = s:black
 
-let s:comment_fg  = { "gui": "#5c6370", "cterm": "241" }
+let s:comment_fg  = { "gui": "#5c6370", "cterm": "246" }
 let s:gutter_bg   = { "gui": "#282c34", "cterm": "236" }
 let s:gutter_fg   = { "gui": "#919baa", "cterm": "247" }
 let s:non_text    = { "gui": "#373C45", "cterm": "239" }
@@ -123,7 +123,7 @@ call s:h("WildMenu", s:fg, "", "")
 " See :help hl-Whitespace and :help hl-SpecialKey
 call s:h("Whitespace", s:non_text, "", "")
 call s:h("NonText", s:non_text, "", "")
-call s:h("Comment", s:comment_fg, "", "italic")
+call s:h("Comment", s:comment_fg, "", "")
 call s:h("Constant", s:cyan, "", "")
 call s:h("String", s:green, "", "")
 call s:h("Character", s:green, "", "")
